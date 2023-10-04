@@ -10,6 +10,6 @@ public interface RestaurantMapper {
     RestaurantMapper INSTANCE = Mappers.getMapper(RestaurantMapper.class);
 
     Restaurant mapRestaurantDTOToRestaurant(RestaurantDTO restaurantDTO);
-
+//implimation for this methode generate auto with springBoot
     RestaurantDTO mapRestaurantToRestaurantDTO(Restaurant restaurant);
 }

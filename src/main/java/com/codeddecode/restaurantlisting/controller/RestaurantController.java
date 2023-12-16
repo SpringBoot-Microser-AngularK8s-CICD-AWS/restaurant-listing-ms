@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController //make sure that your response in the json format
 @RequestMapping("/restaurant")
+@CrossOrigin
 public class RestaurantController {
     @Autowired
     RestaurantService restaurantService;
